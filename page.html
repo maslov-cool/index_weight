@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz6t3w7hHEyUJ7nd_grBrCSAOuRFU0V7UIFQ&usqp=CAU">
+    <title>Индекс веса</title>
+    <link rel="stylesheet" href="Style.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+    <h1 class="container text-center">Калькулятор индекса массы тела (ИМТ)</h1>
+    <p class="text-center container v">На данной странице с помощью калькулятора ИМТ вы можете рассчитать свой показатель.
+         Достаточно ввести вес и рост в поля ниже.</p>
+         <div class="text-center container">
+         <span class="container text-center">Вес, кг:</span>
+         <p><input type="number" id="weight"></p>
+         <span class="container text-center">Рост, см:</span>
+        <p><input type="number" id="height"></p>
+         <span>ИМТ:</span>
+         <p id="p"></p>
+         <p id="as"></p>
+         <button id="btn" class="btn btn-primary">Рассчитать</button>
+        </div>
+         <script src="idea.js"></script>
+</body>
+</html>
